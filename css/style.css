@@ -1,0 +1,123 @@
+
+
+
+body nav a.navbar-brand {
+  font-family: "Poppins", cursive;
+  font-weight: bold;
+  color: #ffffff;
+}
+.circular_image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: blue;
+  /* commented for demo
+  float: left;
+  margin-left: 125px;
+  margin-top: 20px;
+  */
+  
+  /*for demo*/
+  display:inline-block;
+  vertical-align:middle;
+}
+.circular_image img{
+  width:100%;
+}
+
+body nav {
+  color: #000000;
+
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+nav div.collapse ul li a {
+  font-family: "Poppins";
+  color: #000000;
+  font-weight: bold;
+  font-size: large;
+}
+
+nav div.collapse ul li a:hover {
+  font-family: "Poppins";
+  font-weight: bolder;
+  font-size: x-large;
+  transition: 0.3s;
+}
+
+svg.pertama {
+  margin-top: 80px;
+}
+
+.pembuka {
+  color: #000000;
+
+}
+
+.tanggal {
+  font-family: "Poppins";
+  color: white;
+}
+.pembuka .judul {
+  font-family: "Sofia";
+  color: #000000;
+
+}
+
+
+
+section.doa {
+  background-color: white;
+  font-family: "Dancing Script";
+}
+
+.profil {
+  background-color: #ffffff;
+}
+
+.profil .judulprofil {
+  font-family: "Poppins";
+  text-align: center;
+  color: #ffffff;
+}
+
+.profil .namacalon {
+  font-family: "Poppins";
+  font-size: 20px;
+}
+
+.galleri .judulgaleri {
+  font-family: "Poppins";
+  color: #ffffff;
+}
+
+.lokasi {
+  background-color: #383838;
+}
+
+.lokasi .judullokasi {
+  font-family: "Edu VIC WA NT Beginner";
+  color: #ffffff;
+}
+
+.lokasi .judullokasi a {
+  text-align: start;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+footer {
+  font-family: "Edu VIC WA NT Beginner";
+  color: #ffffff;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer p a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
