@@ -7,8 +7,8 @@ body nav a.navbar-brand {
   color: #ffffff;
 }
 .circular_image {
-  width: 200px;
-  height: 200px;
+  width: 130px;
+  height: 130px;
   border-radius: 50%;
   overflow: hidden;
   background-color: blue;
@@ -35,7 +35,7 @@ body nav {
 
 nav div.collapse ul li a {
   font-family: "Poppins";
-  color: #000000;
+  color: #ffffff;
   font-weight: bold;
   font-size: large;
 }
@@ -52,17 +52,19 @@ svg.pertama {
 }
 
 .pembuka {
-  color: #000000;
+  color: #ffffff;
 
 }
 
 .tanggal {
   font-family: "Poppins";
   color: white;
+  font-size: large;
+  font-weight: bold;
 }
 .pembuka .judul {
   font-family: "Sofia";
-  color: #000000;
+  color: #ffffff;
 
 }
 
@@ -74,7 +76,26 @@ section.doa {
 }
 
 .profil {
+  padding: 100px;
+  margin-top: 200px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: x-small;
+}
+
+.tanggal {
+  padding: 100px;
+  margin-bottom: 50px;
   background-color: #ffffff;
+  color: #000000;
+  font-size: x-small;
+}
+.tanggal .zxc{
+  padding: 100px;
+  margin-bottom: 50px;
+  background-color: #ffffff;
+  color: #ffffff;
+  font-size: x-small;
 }
 
 .profil .judulprofil {
@@ -94,7 +115,7 @@ section.doa {
 }
 
 .lokasi {
-  background-color: #383838;
+  background-color: #ffffff;
 }
 
 .lokasi .judullokasi {
@@ -120,4 +141,9 @@ footer p a {
 footer p a:hover {
   text-decoration: none;
   color: #ffffff;
+}
+
+
+.launch-time div{
+  flex-basis: 100px;
 }
